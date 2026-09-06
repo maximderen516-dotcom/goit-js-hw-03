@@ -1,0 +1,23 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ff0000"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "mikeburgh.xml-format"
+  },
+  "workbench.editor.customLabels.patterns": {
+    "svg": "\"svg\": {     \"scope\": \"html\",     \"prefix\": \"svg\",     \"body\": [     \"<svg class=\\\"$2\\\" width=\\\"$3\\\" height=\\\"$4\\\">\",     \"  <use href=\\\"$1\\\"></use>\",     \"</svg>\"     ],     \"description\": \"SVG In HTML\"   }"
+  }
+}
